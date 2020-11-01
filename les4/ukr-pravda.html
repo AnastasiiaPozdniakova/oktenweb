@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .header a {
+            color: blue;
+        }
+
+        .header_top {
+            height: 25px;
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            /*align-content: ;*/
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+
+        .header_top_item{
+            flex-basis: 150px;
+        }
+        .header_logo {
+            height: 100px;
+            border: 1px solid aquamarine;
+            background-color: red;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            /*align-items: flex-end;*/
+            flex-wrap: wrap;
+            align-content: center;
+            text-align: center;
+        }
+
+        .header_main {
+            height: 40px;
+            border: 1px solid green;
+            display: flex;
+            flex-direction: row;
+            align-content: space-between;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        .header_main_item {
+            flex-basis: 100px;
+        }
+
+        .header_logo_item {
+            border: 1px solid yellow;
+            flex-basis: 33%;
+
+        }
+        .header_logo#magazine_name {
+            font-size: 12px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="header">
+
+    <div class="header_top">
+        <div class="header_top_item">Політика</div>
+        <div class="header_top_item">Економіка</div>
+        <div class="header_top_item">Історична правда</div>
+        <div class="header_top_item">Історична правда</div>
+        <div class="header_top_item">Історична правда</div>
+        <div class="header_top_item">Історична правда</div>
+        <div class="header_top_item">Історична правда</div>
+        <div class="header_top_item">Історична правда</div>
+        <div class="header_top_item">Історична правда</div>
+    </div>
+
+    <div class="header_logo">
+        <div class="header_logo_item">Усі Розділи</div>
+        <div class="header_logo_item" id="magazine_name">Українська Правда</div>
+        <div class="header_logo_item"><span><a href="#">Укр</a>/<a href="">Рус</a></span> <button>Клуб УП</button></div>
+        <div class="header_logo_item">Заснована Георгієм Гонгадзе у 2000 році</div>
+    </div>
+
+
+    <div class="header_main">
+        <div class="header_main_item">Головна</div>
+        <div class="header_main_item">Новини</div>
+        <div class="header_main_item">Публікації</div>
+        <div class="header_main_item">Публікації</div>
+        <div class="header_main_item">Публікації</div>
+        <div class="header_main_item">Публікації</div>
+        <div class="header_main_item">Публікації</div>
+        <div class="header_main_item">Публікації</div>
+        <div class="header_main_item">Публікації</div>
+        <div class="header_main_item">Публікації</div>
+    </div>
+</div>
+
+</body>
+</html>

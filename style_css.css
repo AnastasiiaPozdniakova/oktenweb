@@ -1,0 +1,41 @@
+h1, h2, p {
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 500;
+}
+
+h1 {
+    text-align: center;
+    background-color:blue;
+    color: yellow;
+    font-size: 70px;
+    text-shadow: 3px -5px  4px black;
+}
+
+
+h2 {
+    text-align: center;
+    background-color:blueviolet;
+    color:greenyellow;
+    font-size: 50px;
+    text-shadow: 2px -3px  3px black;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Kinnari;
+}
+
+img {
+    width: auto;
+    height: auto;
+    display: block;
+    border: 1px,solid yellow;
+    border-radius: 2%;
+    margin: 0 auto;
+}
+
+p {
+    background-color: rgb(230, 216, 230);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
